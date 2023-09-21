@@ -1,0 +1,28 @@
+body {
+    margin: 10px;
+    padding: 100;
+    transition: background-color 0.5s;
+    flex-wrap: ;
+
+}
+.center{
+    justify-content: center;
+}
+button {
+    transition: .5s;
+    border-radius: 5px;
+    max-width: 80px;
+    max-height: 30px;
+    /* transition: .3s ; */
+    /* box-shadow: 2px rgb(206, 22, 22); */
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+.maindiv{
+    display: flex;
+    justify-content: space-evenly;
+}
